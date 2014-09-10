@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Ankush Agrawal</title>
+	<meta name="author" content="Ankush Agrawal" />
+	<meta name="description" content="Ankush Agrawal's Personal Website" />
+	<meta name="keywords"  content="Ankush, Developer, Software" />
+	<meta name="Resource-type" content="Document" />
+
+	<link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300,300italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<link rel="stylesheet" type="text/css" href="animate.css" />
+	<link rel="stylesheet" href="media.css">
+
+	<!--<link href="bootstrap.css" rel="stylesheet">-->
+
+	<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: true,
+		        resize : true,
+				<!--sectionsColor: ['#2C82C9', '#3D8EB9', '#00A885', '#1ABC9C', '#61BD6D'],-->
+				<!--sectionsColor: ['#30E87D', '#0AB1BF', '#30E8E8', '#35C8FF', '#61BD6D'],-->
+				<!--sectionsColor: ['#1FB54F', '#21BF80', '#25A899', '#21A6BF', '#1F76B5'],-->
+				<!--sectionsColor: ['#4385F5', '#DC4437', '#FCBE1F', '#109D59', '#FFFFFF'],-->
+				sectionsColor: ['#00A13E', '#15D4CB', '#E70047', '#35C8FF', '#E76A39'],
+		        anchors:['Home', 'About', 'Skills', 'Projects', 'Contact'],
+		        scrollingSpeed: 900,
+		        menu: '#menu',
+		        navigation: false,
+		        navigationPosition: 'left',
+		        navigationTooltips: ['Home', 'About', 'Skills', 'Projects', 'Contact'],
+		        slidesNavigation: true,
+		        slidesNavPosition: 'bottom',
+		        loopBottom: true,
+		        loopTop: false,
+		        loopHorizontal: true,
+		        autoScrolling: true,
+		        scrollOverflow: false,
+		        css3: false,
+		        paddingTop: '3em',
+		        paddingBottom: '10px',
+		        keyboardScrolling: true,
+		        touchSensitivity: 15,
+		        continuousVertical: false,
+		        animateAnchor: true,
+		        sectionSelector: '.section',
+		        slideSelector: '.slide',
+
+
+		        //events
+		        onLeave: function(index, nextIndex, direction){},
+		        afterLoad: function(anchorLink, index){},
+		        afterRender: function(){},
+		        afterResize: function(){},
+		        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+		        onSlideLeave: function(anchorLink, index, slideIndex, direction){}
+
+			});
+		});
+	</script>
+
+</head>
+<body>
+<!--
+<ul id="menu">
+	<li data-menuanchor="Home" class="active"><a href="#Home">Home</a></li>
+	<li data-menuanchor="About" ><a href="#About">About</a></li>
+	<li data-menuanchor="Skills"><a href="#Skills">Skills</a></li>
+	<li data-menuanchor="Projects" ><a href="#Projects">Projects</a></li>
+	<li data-menuanchor="Contact" ><a href="#Contact">Contact</a></li>
+</ul>
+-->
+<!--
+<div id="header">
+	<a href = "#Home">//Ankush Agrawal</a>
+	<ul>
+		<li><a href = "#About">About</a><li>
+		<li><a href = "#Skills">Skills</a><li>
+		<li><a href = "#Projects">Projects</a><li>
+		<li><a href = "#Contact">Contact</a><li>
+	</ul>
+</div>
+-->
+<div id="fullpage">
+	<div class="section active" id="section0">
+		<div class="websiteTitle animated fadeInDown">Ankush Agrawal</div>
+		<div class="websiteSubtitle animated fadeInDown delay">Entrepreneur | Optimist | Engineer</div>
+		<a id="links" href="http://www.facebook.com/ankushagrawal94"> <i class="fa fa-facebook-square fa-2x animated bounceInDown delay-more"></i> </a>
+		&nbsp; &nbsp; &nbsp;
+		<a id="links" href="http://linkedin.com/in/ankushagrawal94"> <i class="fa fa-linkedin fa-2x animated bounceInDown delay-more"></i> </a>
+		&nbsp; &nbsp; &nbsp;
+		<a id="links" href="http://www.github.com/ankushagrawal94"><i class="fa fa-github fa-2x animated bounceInDown delay-more">  </i></a>
+		&nbsp; &nbsp; &nbsp;
+		<a id="links" href="mailto::ankushagrawal94@gmail.com"><i class="fa fa-envelope-square fa-2x animated bounceInDown delay-more">  </i></a>
+		&nbsp; &nbsp; &nbsp;
+		<a id="links" href="AnkushAgrawalResume.pdf"><i class="fa fa-file-pdf-o fa-2x animated bounceInDown delay-more">  </i></a>
+		<br> </br>
+		<h2> This website is still under construction </h2>
+		<br />
+		<br />
+		<br />
+		<br />
+        
+	</div>
+
+	<div class="section" id="section1">
+		<div class="intro">
+			<div class="sectionTitle animated fadeInDown delay"> About </div>
+			<br> </br>
+			<div class="aboutText animated fadeInDown delay">Hello There! My name is Ankush Agrawal. I am a developer, an entrepreneur, and a student at UC San Diego. I am driven by the thrill of creation, stories of success, and the desire to make the world a better place. One step at a time, I am gaining the skills I need to make it happen.</div>
+			<br></br>
+			<br></br>
+		</div>
+	</div>
+
+	<div class="section" id="section2">
+		<div class="service-container">
+		    <div class="service-content">
+		      <h3 class="sectionTitle">Skills</h3>
+
+		      <!--considering adding a section here for all the programming languages that I know-->
+		      <div class="third">
+
+		        <i class="fa fa-mobile fa-4x"></i>
+		        <h3 class="card-header center">iOS Developer</h3>
+		        <div class="skillsText">
+		        	I am more familiar with the iOS platform and the Cocoa framework than any other. I enjoy working as a full stack iOS developer and I look forward to continuing my work in Swift.
+		        </div>
+		      </div>
+
+		      <div class="third">
+		        <i class="fa fa-code fa-4x"></i>
+		        <h3 class="card-header center">Scripting</h3>
+		        <div class="skillsText">
+		          I love writing little scripts for small things. I see them as opportunities to practice new laguages, speed up my work flow, better utilize my time, and increase overall productivity.
+		        </div>
+		      </div>
+
+		      <div class="third">
+		        <i class="fa fa-briefcase fa-4x"></i>
+		        <h3 class="card-header center">Business</h3>
+		        <div class="skillsText">
+		        	Business, Entrepreneurship & Finance. I study these topics to help me determine the WHO, WHAT, WHEN, and WHERE for role as a developer and entrepreneur.
+		        </div>
+		      </div>
+		      <!--
+		      <div class="third">
+		        <div class="ion-android-contact service-logo"></div>
+		      	<h3 class="card-header center">Learning</h3>
+
+		        <p>My thirst for learning is insatiable. I like to learn about anything and everything. The challenge for me is to stay focused! </p>
+
+		      </div>
+
+		      <div class="third">
+		        <div class="ion-android-contact service-logo"></div>
+		        <h3 class="card-header center">List Making</h3>
+
+		        <p>Most people don't consider this a skill, but it is something so inherent to my way of thinking. I make lists for everything. Yes everything. I have a list of lists to keep my lists organized as well.</p>
+
+			  </div>
+
+			  <div class="third">
+			  	<div class="ion-android-contact service-logo"></div>
+			  	<h3 class="card-header center">What's Next?</h3>
+
+			  	<p>There are all kinds of things I'd like to be doing and learning. So many ideas and so little time. Some of areas of study for the near future: Machine Learning, Data Analytics, and Web Development</p>
+
+			  </div>
+			-->
+		    </div>
+	    </div>
+	</div>
+	<div class="section" id="section3">
+		<div class = "slide" data-anchor="slide0">
+		<div class="sectionTitle">Projects</div>
+			<div id="projects" class="works">
+				<div class="works-container">
+					<div class="works-content">
+			          <ul>
+			          	<li>
+			                <h2 class="project-title">The HN Bump</h2>
+			                <p class="project-subtitle">
+			                	Correlating HN Upvotes and Github Stars
+			                </p>
+			                <p class="project-text">
+			                	As part of the <a href="https://github.com/blog/1864-third-annual-github-data-challenge">Third Annual GitHub Data Challenge</a>, I analyzed the relationship between the increase in popularity of a GitHub repository and the popularity of a <a href="http://news.ycombinator.com">Hacker News</a> post on the subject.
+			                </p>
+			                <p class="project-page-link"> 
+			                	<a href="https://ankushagrawal94.github.io/TheHackerNewsBump">Findings</a>
+			                	 | 
+			                	<a href="https://ankushagrawal94.github.io/TheHackerNewsBump/readMore.html">Methods</a>
+			                </p>  
+			            </li>
+
+			            <li>
+			                <h2 class="project-title">Frugal Friends</h2>
+			                <p class="project-subtitle">
+			                	Coupons with Friends
+			                </p>
+			                <p class="project-text">
+			                	Frugal Friends allows you to take advantages of the best coupons without requiring you to pay the upfront dollar amount by crowd sourcing the barrier to entry. This iOS app won second place at the UCSD Entrepreneurial Challenge.
+			                </p>
+			                <p class="project-page-link"> 
+			                	<a href="www.github.com/FrugalFriends">GitHub Repo</a>
+			                	| 
+			                	<a href="http://youtu.be/cCARQTr1faY">Video Pitch</a>
+			                </p>  
+			            </li>
+
+			            <li>
+			                <h2 class="project-title">Jackit</h2>
+			                <p class="project-subtitle">
+			                	The Handheld Experience
+			                </p>
+			                <p class="project-text">
+			                	Jackit is an iOS Application I built at <a href="www.lahacks.com">La Hacks</a> with a team of 8 hackers. This game features accelerometer based control and location based competition. Download it on the iOS App Store in September!
+			                </p>
+			                <p class="project-page-link"> 
+			                	<a href="www.wejackit.com" >See Website</a>
+			                </p>  
+			            </li>
+
+			            <li>
+			                <h2 class="project-title">Emotionall</h2>
+			                <p class="project-subtitle">
+			                	What are you feeling?
+			                </p>
+			                <p class="project-text">
+			                	Emotionall is a web application that helps manipulate your mood based on your input. Utilizing the Soundcloud, Flickr, and Twitter API, this rails application curates content based on a text search query.
+			                </p>
+			                <p class="project-page-link"> 
+			                	<a href="www.feelemotionall.com">See Website</a>
+			                </p>  
+			            </li>
+
+						<li>
+			                <h2 class="project-title">The Stock Widget</h2>
+			                <p class="project-subtitle">
+			                	Your Portfolio, a Swipe Away
+			                </p>
+			                <p class="project-text">
+			                	The stock widget is a realtime portfolio tracker for iOS 8, built using Swift. The iOS 8 update brought widgets to iOS for the first time and I was eager to take advantage of the functionality that came with it.
+			                </p>
+			                <p class="project-page-link"> 
+			                	<a href="www.github.com/ankushagrawal94/StockWidget">GitHub Repo</a>
+			                </p>  
+			            </li>
+
+
+			            <li>
+			                <h2 class="project-title">Dine</h2>
+			                <p class="project-subtitle">
+			                	A Transformed Dining Experience
+			                </p>
+			                <p class="project-text">
+			                	Dine is an iOS app that changes the way you eat out from the moment you walk in to a restaurant, to the moment you leave. Dine was voted to be the first place winner in UCSD's Spring Software Engineering course.
+			                </p>
+			                <p class="project-page-link"> 
+			                	<a href="www.github.com/ankushagrawal94/Dine">Github Repo</a>
+			                </p>  
+			            </li>
+
+			          </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class = "slide" data-anchor="slide1">
+		<div class="sectionTitle">Projects</div>
+			<div id="projects2" class="works">
+				<div class="works-container">
+					<div class="works-content">
+			          <ul>
+			            <li>
+			                <h2 class="project-title">The Hunger Games</h2>
+			                <p class="project-subtitle">
+			                	Infinite Iterative Prisoner's Dilemma
+			                </p>
+			                <p class="project-text">
+			                	The Hunger Games is a competition hosted by Brilliant.org in which participants are to create a bot that will compete in an Infinite Iterative Prisoner's Dilemma "game." 
+			                </p>
+			                <p class="project-page-link"> 
+			                	<a href="https://github.com/ankushagrawal94/HungerGamesCompetition">Github Repo</a>
+			                </p>  
+			            </li>
+
+			            <li>
+			                <h2 class="project-title">Arduino Audio Analyzer</h2>
+			                <p class="project-subtitle">
+			                	Watch Your Music Come Alive
+			                </p>
+			                <p class="project-text">
+			                	The Arduino Audio Analyzer is an Arduino hardware hack that analyzes music it hears using a microphone and creates light patterns on an external Adafruit light strip
+			                </p>
+			                <p class="project-page-link"> 
+			                	<a href="www.github.com/ankushagrawal94/AudioAnalyzer8x8">Github Repo</a>
+			                </p>  
+			            </li>
+
+						<li>
+			                <h2 class="project-title">The iBeacon Book</h2>
+			                <p class="project-subtitle">
+			                	Tracking, Security, Reservations
+			                </p>
+			                <p class="project-text">
+			                	I am currently reviewing a book on iBeacons and Bluetooth Low Energy. In the past I have used BLE and iBeacons in Dine to allow restaurant goers the ability to book a table as soon as they enter a restaurant.
+			                </p>
+			            </li>
+
+			            <li>
+			                <h2 class="project-title">The Bing Bot</h2>
+			                <p class="project-subtitle">
+			                	$$$ 1 Search At a Time
+			                </p>
+			                <p class="project-text">
+			                	The Bing Bot is a script I wrote to automate searches on Bing.com. Bing Rewards offers points based on the number of searches made. It has since been decomissioned for ethical reasons.
+			                </p>
+			            </li>
+
+			            <li>
+			                <h2 class="project-title">The Seating Chart</h2>
+			                <p class="project-subtitle">
+			                	New Seat, New Partner, New day
+			                </p>
+			                <p class="project-text">
+			                	For CSE 15L, I created a seating chart randomizer that will assign and email students a new unique seat and partner each day. It takes in a list of students and a room schematic.
+			                </p>
+			            </li>
+
+			            <li>
+			                <h2 class="project-title">Programming Challenge</h2>
+			                <p class="project-subtitle">
+			                	2nd Place - UCSD WIC & Facebook
+			                </p>
+			                <p class="project-text">
+			                	Facebook and WIC host an algorithm based programming competition at UCSD for first and second year students. My partner and I place 2nd place at the event
+			                </p>
+			            </li>
+
+			          </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!--
+		<div class = "slide" data-anchor="slide1">
+		<h1>Slide 1</h1>
+		</div>
+
+		<div class = "slide" data-anchor="slide1">
+		<h1>Slide 1</h1>
+		</div>
+	-->
+	</div>
+	<!--<div class="section" id="section4">
+		<section id="experience" name="experience"></section>
+		<h1> Experience </h1>
+		<br> </br>
+		<div class="row midsize">
+			<div class="col-lg"></div>
+			The Boeing Company - Intern
+			One of my most signifncant tasks was to speed up a slow web service. I optimized a SOAP web service for printing barcodes using asynchronous requests to be able to process 45000% more requests per minute. 
+		</div>
+		<table >
+			<tr> <h3> The Boeing Company - Intern moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar moar</h3> </tr>
+			<tr> <p> Optimized a SOAP web service for printing barcodes using asynchronous requests to be able to process 45000% more requests per minute. </p></tr>
+			<tr> <h3> June 2014 - Present </h3> </tr>
+			<br> </br>
+			<tr> <h3> June 2013 - Sept 2013 </h3> </tr>
+			<tr> <h3> I did this too </h3> </tr>
+			<br> </br>
+			<tr> <h3> UCSD CSE 12 & 15L Tutor </h3> </tr>
+			<tr> <h3> Sept 2013 - Present </h3> </tr>
+			<tr> <h3> This is what I did </h3> </tr>
+			<br> </br>
+			<tr> <h3> Georg Fischer </h3> </tr>
+			<tr> <h3> June 2012 - Sept 2012 </h3> </tr>
+			<tr> <h3> This is what I did </h3> </tr>
+			<br> </br>
+			<tr> <h3> Rockwell Collins </h3> </tr>
+			<tr> <h3> June 2011 - Sept 2011 </h3> </tr>
+			<tr> <h3> This is what I did </h3> </tr>
+			<br> </br>
+		</table>-->
+  	<!--EXPERIENCE DESCRIPTION -->
+		<!--<h2> Experience </h2>
+		<table class="experience-table">
+		  <tr>
+		    <td><h1 class = experience-title>The Boeing Company - Programmer Analyst Intern</h1></td>
+		    <td><h2> June 2014 - Sept 2014</h2></td>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<h3> Optimized a SOAP web service for printing barcodes using asynchronous requests to be able to process 45000% more requests per minute. </h3>
+		  	</td>
+		  </tr>
+		  <tr>
+		    <td><h1 class = experience-title>Georg Fischer - Operations Associate</h1></td>
+		    <td><h2> June 2012 - Sept 2012</h2></td>
+		  </tr>	
+		  <tr>
+		  	<td>
+		  		<h3> I did some shit</h3>
+		  	</td>
+		  </tr>
+		</table>
+	</div> -->
+	<div class="section" id="section4">
+		<div class="intro">
+			<div class="sectionTitle">Contact me?</div>
+			<br> </br>
+			<div class="aboutText"> Hi There! Interested in working on a project, talking about some new tech, hiring me, or discussing something that's on your mind? Shoot me an <a href="mailto:ankushagrawal94@gmail.com" >email</a> or reach out in any way. Don't be shy! I look forward to hearing from you!</div>
+		</div>
+		
+	</div>
+</div>
+
+</body>
+</html>
